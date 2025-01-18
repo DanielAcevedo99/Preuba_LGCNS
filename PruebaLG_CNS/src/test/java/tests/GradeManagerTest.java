@@ -12,9 +12,9 @@ public class GradeManagerTest {
     @Test
     public void testIntegrationFlow() {
         ArrayList<Student> students = new ArrayList<>();
-        students.add(new Student("STD01", 85, 90, 78, 88)); // Avg: 85.25
-        students.add(new Student("STD02", 75, 80, 70, 65)); // Avg: 72.5
-        students.add(new Student("STD03", 95, 92, 89, 91)); // Avg: 91.75
+        students.add(new Student("STD01", 85, 90, 78, 88)); 
+        students.add(new Student("STD02", 75, 80, 70, 65)); 
+        students.add(new Student("STD03", 95, 92, 89, 91)); 
 
         RankingService rankingService = new RankingService();
         rankingService.assignRanks(students);
