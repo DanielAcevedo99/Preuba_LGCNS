@@ -15,7 +15,7 @@ public class StudentTest {
         assertEquals(85, student.getSqlScore());
         assertEquals(80, student.getMathScore());
         assertEquals(75, student.getEnglishScore());
-        assertEquals(82.5, student.getAverage(), 0.01); // Promedio
+        assertEquals(82.5, student.getAverage(), 0.01); 
     }
 
     @Test
